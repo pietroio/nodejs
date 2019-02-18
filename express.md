@@ -3,12 +3,15 @@
 Crie um diretório para seu projeto:
 
 `$ cd ~
+
 $ mkdir projeto
+
 $ cd ~/projeto`
 
 Inicie um projeto e salve o pacote da API no diretório:
 
 `$ npm init
+
 $ npm install -s express`
 
 Agora crie seu código, crie um arquivo com a extensão ".js" (exemplo "app.js"):
@@ -18,7 +21,9 @@ Agora crie seu código, crie um arquivo com a extensão ".js" (exemplo "app.js")
 No corpo do arquivo inscreva:
 
 `var express = require('express');
+
 var app = express();
+
 var port = 8000;
 
 app.get('/', (req, res) => {
@@ -26,7 +31,6 @@ app.get('/', (req, res) => {
 });
 
 app.listen(port, function() {
-console.log(`Express rodando em http://localhost:${port}`);
 console.log('Express rodando em http://localhost:8000')
 });
 `
