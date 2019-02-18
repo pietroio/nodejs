@@ -2,17 +2,17 @@
 
 Crie um diretório para seu projeto:
 
-`$ cd ~
+`$ cd ~`
 
-$ mkdir projeto
+`$ mkdir projeto`
 
-$ cd ~/projeto`
+`$ cd ~/projeto`
 
 Inicie um projeto e salve o pacote da API no diretório:
 
-`$ npm init
+`$ npm init`
 
-$ npm install -s express`
+`$ npm install -s express`
 
 Agora crie seu código, crie um arquivo com a extensão ".js" (exemplo "app.js"):
 
@@ -20,20 +20,20 @@ Agora crie seu código, crie um arquivo com a extensão ".js" (exemplo "app.js")
 
 No corpo do arquivo inscreva:
 
-`var express = require('express');
+`var express = require('express');`
 
-var app = express();
+`var app = express();`
 
-var port = 8000;
+`var port = 8000;`
 
-app.get('/', (req, res) => {
+`app.get('/', (req, res) => {
   res.send('Express rodando');
-});
+});`
 
-app.listen(port, function() {
+`app.listen(port, function() {
 console.log('Express rodando em http://localhost:8000')
-});
-`
+});`
+
 Agora vá até o navegador (browser), e navegue até o endereço indicado no terminal.
 
 Pronto, você agora implementou um simples exemplo do Express. Agora crie seus próprios projetos.
