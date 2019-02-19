@@ -37,11 +37,17 @@ Gere um arquivo de texto com a extenção ".js" (iremos usar "test.js"),
 e inscreva no corpo do mesmo o seguinte código:
 
 `var x, y, w, z;`
+
 `x = 1;`
+
 `y = 2;`
+
 `w = x*y;`
+
 `z = w+w;`
+
 `console.log(w);`
+
 `console.log(z);`
 
 No terminal, ainda, execute o seguinte comando:
