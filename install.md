@@ -12,43 +12,41 @@ Node.js v8.x no Ubuntu:
 
 Abra o terminal e execute:
 
-$ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+`$ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -`
 
-$ sudo apt-get install -y nodejs
+`$ sudo apt-get install -y nodejs`
 
 A partir de agora o Nodejs já está instalado.
 
 Verificando caminho de instalação e versão instalada:
 
-$ which nodejs
+`$ which nodejs`
 
-$ node -v
+`$ node -v`
 
 Se todas as etapas anteriores correrem sem nenhuma falha, então podemos testar um simples código em JavaScript.
 
 Navegue até um diretório apropriado. Por exemplo:
 
-$ cd ~/test-temp
+`$ cd ~/test-temp`
 
 Gere um arquivo de texto com a extenção ".js" (iremos usar "test.js"),
 
-$ nano test.js
+`$ nano test.js`
 
 e inscreva no corpo do mesmo o seguinte código:
 
-var x, y, w, z;
-
-x = 1;
-y = 2;
-w = x*y;
-z = w+w;
-
-console.log(w);
-console.log(z);
+`var x, y, w, z;`
+`x = 1;`
+`y = 2;`
+`w = x*y;`
+`z = w+w;`
+`console.log(w);`
+`console.log(z);`
 
 No terminal, ainda, execute o seguinte comando:
 
-$ node test.js
+`$ node test.js`
 
 Se você tiver um retorno no console (terminal) equivalente a equação inscrita, então você concluiu o tutorial sem falhas.
 
